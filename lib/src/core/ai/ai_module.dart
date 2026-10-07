@@ -5,7 +5,6 @@ enum AiModuleType {
   speechToText,
   textToSpeech,
   faceRecognition,
-  emotionRecognition,
 }
 
 abstract interface class AiModule<I, O> {
